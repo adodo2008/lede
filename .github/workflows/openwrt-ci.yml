@@ -133,16 +133,16 @@ jobs:
           cat >> .config <<EOF
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
           CONFIG_PACKAGE_luci-app-minidlna=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
+          CONFIG_PACKAGE_luci-app-softethervpn=y
           CONFIG_PACKAGE_luci-appluci-app-upnp=y
           CONFIG_PACKAGE_luci-app-ddns=y
           CONFIG_PACKAGE_luci-app-dnscrypt-dnsforwarder=y
           CONFIG_PACKAGE_luci-app-flowoffload=y
           CONFIG_PACKAGE_luci-app-syncdial=y
-          CONFIG_PACKAGE_luci-app-gost=y
-          CONFIG_PACKAGE_luci-app-v2ray-server=y
+          CONFIG_PACKAGE_luci-app-ttyd=y
+          CONFIG_PACKAGE_luci-app-ssrserver-python=y
           CONFIG_PACKAGE_luci-app-openvpn-server=y
-          CONFIG_PACKAGE_luci-app-passwall=y
+          CONFIG_PACKAGE_luci-app-baidupcs-web=y
           EOF
           # LuCI主题:
           cat >> .config <<EOF
