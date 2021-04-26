@@ -96,8 +96,8 @@ jobs:
           # 编译x64固件:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
-          CONFIG_TARGET_ramips_mt7620=y
-          CONFIG_TARGET_ramips_mt7620_DEVICE_youku_yk1=y
+          CONFIG_TARGET_ramips_mt7621=y
+          CONFIG_TARGET_ramips_mt7621_DEVICE_Xiaomi_Redmi_Router_AC2100=y
           EOF
           # 固件压缩:
           cat >> .config <<EOF
